@@ -1,0 +1,197 @@
+@media screen and (max-width: 1330px) {
+  .featured .slick-arrow,
+  .clients .slick-arrow,
+  .articles-slider .slick-arrow {
+    top: auto;
+    bottom: -50px;
+    margin: 0;
+  }
+
+  .featured-slider__prev,
+  .clients-slider__prev,
+  .articles-slider__prev {
+    left: 40%;
+  }
+
+  .featured-slider__next,
+  .clients-slider__next,
+  .articles-slider__next {
+    right: 40%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .footer-top__right {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .article-text {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .footer-top__left {
+    float: none;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .footer-top__right {
+    float: none;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .team-item {
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+  .article-item {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .article-item:first-child {
+    margin-right: 0;
+  }
+
+  .article-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .advantages-item {
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+  .featured .section-text__big,
+  .clients .section-text__big,
+  .articles-slider .section-text__big {
+    margin-bottom: 50px;
+  }
+
+  .featured .slick-arrow,
+  .clients .slick-arrow,
+  .articles-slider .slick-arrow {
+    bottom: -25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-bg .container {
+    min-height: 550px;
+  }
+
+  .top-banner__info {
+    top: 20%;
+    text-align: center;
+  }
+
+  .top-banner__title {
+    font-size: 50px;
+    margin-top: 65px;
+  }
+
+  .top-banner__title:after {
+    right: 50%;
+    margin-right: -70px;
+  }
+
+  .top-banner__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .section-text__big {
+    line-height: 20px;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .advantages-item {
+    width: 90%;
+    margin: 0 auto 50px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .advantages-icon {
+    position: static;
+    display: inline-block;
+  }
+
+  .team-item {
+    width: 80%;
+    padding-top: 130px;
+    margin: 0 auto 60px;
+  }
+
+  .facts-item__wrap {
+    padding: 60px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    text-align: center;
+  }
+
+  .header-logo {
+    float: none;
+    padding-top: 30px;
+  }
+
+  .header-nav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+  }
+
+  .top-banner__title {
+    font-size: 35px;
+  }
+
+  .portfolio-filter li {
+    margin: 0 5px;
+  }
+
+  .facts-item {
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+
+  .footer {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .footer-info-menu,
+  .footer-disclaimer {
+    float: none;
+  }
+
+  .footer-disclaimer {
+    margin-bottom: 40px;
+  }
+
+  .footer-info-menu__list li {
+    margin-left: 15px;
+  }
+
+  .header-nav__list li {
+    margin-right: 20px;
+  }
+}

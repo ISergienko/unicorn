@@ -1,0 +1,30 @@
+// Подключаем стили библиотек
+@import "libs.scss";
+@import "vars.scss"; // Подключаем переменные
+
+// Подключаем спрайты (просто раскоментируем импорт при появлении PNG спрайтов)
+@import "sprite.scss";
+@import "mixins.scss"; // Подключаем миксины
+@import "common_styles.scss"; // Общие стили
+
+
+@import "sections/_top_banner";
+@import "sections/who_and_why";
+@import "sections/advantages";
+@import "sections/featured";
+@import "sections/clients";
+@import "sections/portfolio";
+@import "sections/quote";
+@import "sections/team";
+@import "sections/facts";
+@import "sections/articles";
+@import "sections/articles-slider";
+@import "sections/twitter";
+
+
+
+@import 'modules/_header.scss'; // Стили шапки
+@import 'modules/_menu.scss'; // Стили меню
+@import 'page/index.scss'; // Стили главной страницы
+@import 'modules/_footer.scss'; // Стили футера
+@import "media.scss"; // Стили медиазапросов
